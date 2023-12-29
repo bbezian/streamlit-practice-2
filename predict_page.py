@@ -3,7 +3,6 @@ import pickle
 import joblib
 import numpy as np 
 
-upload_file = st.file_uploader('upload')
 
 def load_model():
     with open('saved_steps.pkl', 'rb') as file:
